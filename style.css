@@ -41,53 +41,41 @@ h2{
 
 
 .webpage{
-   
-
+   margin-top: 25px;
+    
 }
-a {
-    margin-top: 50px;
-    display: block;
-    color: #428bca;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-img{
-    width: 60%;
-}
-
-.fl-photo-content {
-    box-sizing: border-box;
-    position: relative;
+.webpage div{
+    width: 20% !important;
+    margin-left: 25px;
     display: inline-block;
-    line-height: 0;
-    position: relative;
-    max-width: 25%;
 }
 
-.fl-photo-caption {
-    font-size: 13px;
-    line-height: 18px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    visibility:  hidden;
+.webpage >div{
+    /*display: inline-block;*/
+    /*border: 2px solid #F6303E;*/
+    width: 20%;
+    margin-right: 25px;
+    margin-bottom: 25px;
 }
 
-.fl-photo-caption:hover {
-    visibility:  visible;
-    background: rgba(0,0,0,0.7);
-    bottom: 0;
-    color: #fff;
-    left: 0;
-    opacity: 0;
-    filter: alpha(opacity = 0);
-    padding: 10px 15px;
-    position: absolute;
-    right: 0;
-    -webkit-transition: opacity 0.3s ease-in;
-    -moz-transition: opacity 0.3s ease-in;
-    transition: opacity 0.3s ease-in;
+.webpage img {    
+    height: 150px;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    object-fit: contain; 
+}
+
+.webpage p{
+    background-color:transparent;/*#F6303E*/
+    color: black;    
+    /*padding: 25px 36px;*/
+    padding-top: 175px;
+    padding-bottom: 5px;    
+    display:block;
+    text-align: center;
+    text-decoration: none;    
+    font-size: 16px;        
 }
 
 

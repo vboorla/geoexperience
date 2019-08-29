@@ -1,0 +1,93 @@
+body {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    text-align: center;
+    overflow: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)),url(img/GeoExperience_bg-01.png);
+    /*background-image: url(img/GeoExperience_bg-01.png);*/
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 3em;
+    margin: 0 0 0.1em 0;
+    
+}
+
+h2{
+  font-weight: 100;
+    font-size: 1em;
+    margin: 0 0 0.1em 0;  
+}
+
+
+
+.title-line a img{
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    line-height: 0;
+    position: relative;
+    max-width: 50%;
+}
+
+
+.webpage{
+   
+
+}
+a {
+    margin-top: 50px;
+    display: block;
+    color: #428bca;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+img{
+    width: 60%;
+}
+
+.fl-photo-content {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    line-height: 0;
+    position: relative;
+    max-width: 25%;
+}
+
+.fl-photo-caption {
+    font-size: 13px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    visibility:  hidden;
+}
+
+.fl-photo-caption:hover {
+    visibility:  visible;
+    background: rgba(0,0,0,0.7);
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    -webkit-transition: opacity 0.3s ease-in;
+    -moz-transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in;
+}
+
+
